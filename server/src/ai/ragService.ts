@@ -1,8 +1,8 @@
-"""
-Enterprise RAG (Retrieval-Augmented Generation) Knowledge Base Service.
-Maintains vectorized incident runbooks, architecture post-mortems, and
-performs semantic similarity retrieval to provide factual grounding.
-"""
+/**
+ * Enterprise RAG (Retrieval-Augmented Generation) Knowledge Base Service.
+ * Maintains vectorized incident runbooks, architecture post-mortems, and
+ * performs semantic similarity retrieval to provide factual grounding.
+ */
 
 export interface KnowledgeDocument {
   id: string;
